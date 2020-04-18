@@ -11,17 +11,15 @@
   <link rel = "stylesheet" href = "css/libs.min.css"> 
   <link rel = "stylesheet" href = "css/main.min.css"> 
   
-
 </head>
 <body>
-  <header>
-    <section class="menu-top">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">МАГАЗИН</a>
+  <header  >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+      <div class="container mt-2">
+        <a class="navbar-brand" href="#">StyleTour</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>      
-    
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -34,40 +32,120 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">Английский</a>
                 <a class="dropdown-item" href="#">Русский</a>
-                <a class="dropdown-item" href="#">Немецкий</a>
+                <a class="dropdown-item" href="#">Французский</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Такса Free 50$</a>
             </li>
-             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Валюта
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Доллар США</a>
-                <a class="dropdown-item" href="#">Российский рубль</a>
-              </div>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Валюта
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Доллар США</a>
+              <a class="dropdown-item" href="#">Российский рубль</a>
+            </div>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">ВОЙТИ</button>
+          <form class="form-inline mr-3 my-2 my-lg-0">
+            <button class="btn btn-red my-2 my-sm-0" type="submit">ВОЙТИ</button>
           </form>
           <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-shopping-cart" aria-hidden="true"></i>КОРЗИНА</button>
+            <button class="btn btn-red my-2 my-sm-0" type="submit"><i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>КОРЗИНА</button>
           </form>
         </div>
-      </nav>
+      </div> 
+    </nav>
+      
+    <nav class="navbar navbar-expand-lg bg-dark navbar-custom pb-0">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="33"></a>
+        <div class="collapse navbar-collapse navbar-collapse-logo" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-nav-logo">
+            <li class="nav-item active">
+              <a class="nav-link nav-link-logo" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-logo" href="#">Men</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-logo" href="#">Women</a>
+            </li>                
+            <li class="nav-item">
+              <a class="nav-link nav-link-logo" href="#">Kids</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-logo" href="#">Kids</a>
+            </li>
+          </ul>  
+          <form class="form-inline my-2 my-lg-0">
+            <div class="form-group mx-sm-3">
+              <label for="inputPassword2" class="sr-only">Password</label>
+              <input type="password" class="form-control" id="inputPassword2" placeholder="Что желаете">
+            </div>
+            <button class="btn btn-red my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </form>
+        </div>
+      </div> 
+    </nav>
+
+    <section class = "menu-carousel">
+      <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-item-brand">
+            <img src="img/slider.jpg" class="d-block w-100" alt="1">
+            <div class="bgslide" style = "background-image: url(img/slider.jpg);"></div>
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Women's Apparel</h1>
+              <p>T-Shirts, Dress Shirts Tanks, Pants and More...</p>
+              <button class="btn btn-red my-2 my-sm-0" type="submit">Shop Women's Apparel</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider.jpg" class="d-block w-100" alt="1">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Women's Apparel - 1</h1>
+              <p>T-Shirts, Dress Shirts Tanks, Pants and More...</p>
+              <button class="btn btn-red my-2 my-sm-0" type="submit">Shop Women's Apparel</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </header>
 
-<script src="https://use.fontawesome.com/9aea11037f.js"></script>
+  <section class="main-slogan">
+    <div class="container">
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, quae incidunt velit non aspernatur suscipit repellendus</h2>
+    </div>
+  </section>   
+  
+  <section class="main-content">
+    <div class="container">
+      <div class="row">
+        
+        <div class="col-md-3">
+          <h3>SITEBAR</h3>
+        </div>
+        <div class="col-md-9">
+          <h3>CONTENT</h3>
+       </div>
+
+      </div>
+    </div>
+  </section>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
  <!--
+   <script src="https://use.fontawesome.com/9aea11037f.js"></script>
+
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src = "js/lib.min.js"></script>  
 <script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -1,14 +1,102 @@
 @import "font";
 //@import "mixins/mixins";
 //@import "my_main";
-
+// ===================== основные стили ================
 body {
-	font-family: "Open Sans";
+	background: #ececec;
+	font-family: "Open Sans", sans-serif;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+	font-size: 16px;
+	color: #000;
+	min-width: 320px;
 }
-
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto; 
+	position: relative;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+.btn-red {
+	background: #d51e08;
+	color:#fff;
+	font-size: 16px;
+}
+.btn-red:hover {
+	background: #ec4835;
+	transition: background 1.3s;
+}
+.btn {	
+	border-radius: 10px;
+}
 h1 {
-    color: rgb(235, 51, 174);
-    font-size: 50px;
+    color: #fff;
+	font-size: 60px;
+	font-weight: bold;
 }
+// ================ HEADER ====================
+
+.navbar-custom {
+	background-color: #fff;
+	text-transform: uppercase;
+	padding-top: 0px;
+	position: relative;
+	z-index: 22;
+}
+.nav-item .dropdown-menu {
+	font-size: 16px;
+	color: #000;
+}
+.carousel-caption {
+	padding-bottom: 4%;
+	text-align: left;
+	left: 17%;
+}
+.carousel-caption p {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+.input-group-logo {
+	width: 35%;	
+}
+.navbar-nav-logo {
+	justify-content: space-between;
+}
+.navbar-collapse-logo {
+	justify-content: space-around;
+	flex-grow: 0;
+}
+.nav-item a {
+	padding: 0 auto;	
+}
+.nav-link-logo {
+	color: #fff;
+	font-size: 20px;
+}
+.nav-link-logo :hover {
+	color: #ec4835;
+}
+.navbar-brand> img {
+	position: absolute;
+	z-index: 33;
+}
+.carousel-item-brand {
+	z-index: 10;
+	opacity: 0;
+}
+//======================== Контент ============================
+
+.main-slogan {
+	background: white;
+	text-align: center;
+	border-top: 3px solid #cfcfcf;
+}
+// ==================== Sitebar  ===========================

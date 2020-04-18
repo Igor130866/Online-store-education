@@ -1,5 +1,21 @@
 /* Custom.scss */
-/*
+
+
+@import "../libs/font-awesome-4.7.0/scss/variables";
+@import "../libs/font-awesome-4.7.0/scss/mixins";
+@import "../libs/font-awesome-4.7.0/scss/path";
+@import "../libs/font-awesome-4.7.0/scss/core";
+@import "../libs/font-awesome-4.7.0/scss/larger";
+@import "../libs/font-awesome-4.7.0/scss/fixed-width";
+@import "../libs/font-awesome-4.7.0/scss/list";
+@import "../libs/font-awesome-4.7.0/scss/bordered-pulled";
+@import "../libs/font-awesome-4.7.0/scss/animated";
+@import "../libs/font-awesome-4.7.0/scss/rotated-flipped";
+@import "../libs/font-awesome-4.7.0/scss/stacked";
+@import "../libs/font-awesome-4.7.0/scss/icons";
+@import "../libs/font-awesome-4.7.0/scss/screen-reader";
+/*@import "../libs/font-awesome-4.7.0/scss/font-awesome";
+
 @import "../libs/bootstrap/scss/functions";
 @import "../libs/bootstrap/scss/variables";
 @import "../libs/bootstrap/scss/mixins";
